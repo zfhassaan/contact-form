@@ -121,8 +121,3 @@
     }
   }
 })();
-
-
-if (validateHuman(data.honeypot)) {  //if form is filled, form will not be submitted
-  return false;
-}
