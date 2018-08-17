@@ -71,11 +71,11 @@ input[type="submit"],a,.agileinfo_social_icons li{
     font-size: 16px;
 }
 .w3layouts_copy_right p a{
-	color:#cd31c1;
+	color:#000;
 	text-decoration:none;
 }
 .w3layouts_copy_right p a:hover{
-	color:#fff;
+	color:#3f51b5;
 }
 /*-- //footer --*/
 .main{
@@ -100,7 +100,7 @@ input[type="submit"],a,.agileinfo_social_icons li{
     display: block;
 }
 .w3layouts_main_grid span label{
-    color: #000000;
+    color: #000;
     font-size: 14px;
     text-transform: uppercase;
     font-style: normal;
@@ -183,12 +183,12 @@ input[type="submit"],a,.agileinfo_social_icons li{
 	text-transform:uppercase;
 	font-size:14px;
 	color:#fff;
-	background:#cd31c1;
+	background:#000;
 	border:none;
 	cursor:pointer;
 }
 .w3_main_grid_right input[type="submit"]:hover{
-	background:#df49d3;
+	background:#1c521e;
 }
 /*-- radio button --*/
 span {
