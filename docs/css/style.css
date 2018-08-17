@@ -108,6 +108,7 @@ input[type="submit"],a,.agileinfo_social_icons li{
     width: 28%;
     margin: .8em 0 0;
 	position:relative;
+	font-family: 'Open Sans Condensed',sans-serif;
 }
 .content-w3ls{
     color: #FFFFFF;
@@ -123,6 +124,7 @@ input[type="submit"],a,.agileinfo_social_icons li{
 	top:0%;
 	color:#fff;
 	font-style:normal;
+	font-family: 'Open Sans Condensed',sans-serif;
 }
 .w3layouts_main_grid input[type="text"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
     outline: none;
