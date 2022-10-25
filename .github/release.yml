@@ -1,0 +1,15 @@
+# .github/release.yml
+
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+    authors:
+      - zfhassaan
+  categories:
+    - title: Breaking Changes 🛠
+      labels:
+        - Enhancements & Bug Fixes
+    - title: Other Changes
+      labels:
+        - "*"
