@@ -2,116 +2,140 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="contact form example">
-	<title>Cube Forms</title>
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script
+        nonce="c937ead9-ec6a-42c6-9015-50d3691428e9">(function (w, d) { !function (Z, _, ba, bb) { Z.zarazData = Z.zarazData || {}; Z.zarazData.executed = []; Z.zaraz = { deferred: [], listeners: [] }; Z.zaraz.q = []; Z.zaraz._f = function (bc) { return function () { var bd = Array.prototype.slice.call(arguments); Z.zaraz.q.push({ m: bc, a: bd }) } }; for (const be of ["track", "set", "debug"]) Z.zaraz[be] = Z.zaraz._f(be); Z.zaraz.init = () => { var bf = _.getElementsByTagName(bb)[0], bg = _.createElement(bb), bh = _.getElementsByTagName("title")[0]; bh && (Z.zarazData.t = _.getElementsByTagName("title")[0].text); Z.zarazData.x = Math.random(); Z.zarazData.w = Z.screen.width; Z.zarazData.h = Z.screen.height; Z.zarazData.j = Z.innerHeight; Z.zarazData.e = Z.innerWidth; Z.zarazData.l = Z.location.href; Z.zarazData.r = _.referrer; Z.zarazData.k = Z.screen.colorDepth; Z.zarazData.n = _.characterSet; Z.zarazData.o = (new Date).getTimezoneOffset(); Z.zarazData.q = []; for (; Z.zaraz.q.length;) { const bl = Z.zaraz.q.shift(); Z.zarazData.q.push(bl) } bg.defer = !0; for (const bm of [localStorage, sessionStorage]) Object.keys(bm || {}).filter((bo => bo.startsWith("_zaraz_"))).forEach((bn => { try { Z.zarazData["z_" + bn.slice(7)] = JSON.parse(bm.getItem(bn)) } catch { Z.zarazData["z_" + bn.slice(7)] = bm.getItem(bn) } })); bg.referrerPolicy = "origin"; bg.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(Z.zarazData))); bf.parentNode.insertBefore(bg, bf) };["complete", "interactive"].includes(_.readyState) ? zaraz.init() : Z.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, 0, "script"); })(window, document);</script>
 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
-		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-
-
-	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-
-	
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
-		integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
-	<link rel="stylesheet"
-		href="https://p.w3layouts.com/demos_new/template_demo/29-06-2017/event_registration_form-demo_Free/744047052/web/css/jquery-ui.css" />
-
-	<script
-	type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	
-	<script type="text/javascript"
-		src="https://p.w3layouts.com/demos_new/template_demo/29-06-2017/event_registration_form-demo_Free/744047052/web/js/jquery-2.1.4.min.js"></script>
-	<script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+		<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		
+		<script type="text/javascript"
+			src="https://p.w3layouts.com/demos_new/template_demo/29-06-2017/event_registration_form-demo_Free/744047052/web/js/jquery-2.1.4.min.js"></script>
+		<script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
 </head>
 
 <body>
-	<div class="center-container">
-		<div class="main">
-			<h1 class="w3layouts_head" style="color: black;">Schedule Shoot</h1>
-
-			<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-			<div class="w3layouts_main_grid">
-				<form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
-					action="https://script.google.com/macros/s/AKfycbxacQNyBYU5VDPUHAVjdnmSlyYRPELqf7uhHpgq/exec">
-					<div class="form-elements">
-						<div class="w3_agileits_main_grid w3l_main_grid">
-							<span class="agileits_grid">
-								<label for="name" style="color: black;">Your Name </label>
-								<input type="text" name="name" placeholder="Your Name" required=""
-									style="color: black;">
-							</span>
-						</div>
-						<div class="w3_agileits_main_grid w3l_main_grid">
-							<span class="agileits_grid">
-								<label for="Business Name">YOUR BUSINESS NAME</label>
-								<input type="text" name="Business Name" placeholder="Your Business Name" required="">
-							</span>
-						</div>
-
-						<div class="w3_agileits_main_grid w3l_main_grid">
-							<span class="agileits_grid">
-								<label for="email">Your Email </label>
-								<input type="text" name="email" placeholder="Your Email" required="">
-							</span>
-						</div>
-						<div class="agileits_w3layouts_main_grid w3ls_main_grid">
-							<span class="agileinfo_grid">
-								<label for="Date">Date </label>
-								<div class="agileits_w3layouts_main_gridl" style="width: 25%;">
-									<input class="date" id="datepicker" name="Date" type="text" value="mm/dd/yyyy"
-										onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}"
-										required="">
-								</div>
-								<div class="agileits_w3layouts_main_gridr" style="width: 45%;">
-									<label for="Time">Time</label>
-									<div class="agileits_w3layouts_main_gridl" style="width: 50%;">
-										<input type="time" name="Time" placeholder=" " required="">
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="wrapper">
+                        <div class="row no-gutters">
+                            <div class="col-lg-6">
+                                <div class="contact-wrap w-100 p-md-5 p-4">
+                                    <h3>Contact us</h3>
+                                    <p class="mb-4">We're open for any suggestion or just to have a chat</p>
+                                    <div id="form-message-warning" class="mb-4"></div>
+                                    <div id="form-message-success" class="mb-4">
+                                        Your message was sent, thank you!
+                                    </div>
+                                    <div class="row mb-4">
+                                        <div class="col-md-4">
+                                            <div class="dbox w-100 d-flex align-items-start">
+                                                <div class="text">
+                                                    <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY
+                                                        10016</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="dbox w-100 d-flex align-items-start">
+                                                <div class="text">
+                                                    <p><span>Email:</span> 
+														<a href="mailto:zfhassaan@gmail.com">contact@gmail.com</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="dbox w-100 d-flex align-items-start">
+                                                <div class="text">
+                                                    <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+										<form class="contactForm" id="submit-to-google-sheet" name="submit-to-google-sheet" data-email="example@email.net">
+											<p class="js-status-message is-hidden"></p>
+                                        <div class="cfsf row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="name" id="name"
+                                                        placeholder="Name" required="" class="color:black;">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+													<input type="text" name="Business Name" placeholder="Your Business Name" class="form-control" id="business-name" required=""/>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" name="email" id="email"
+                                                        placeholder="Email" required="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+													<input class="date form-control" id="datepicker" name="Date" type="date" value="mm/dd/yyyy"
+													onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}"
+													required="">
+                                                </div>
+                                            </div>
+											<div class="col-md-12">
+                                                <div class="form-group">
+													<input class="form-control" type="time" name="Time" placeholder=" " required="">
+                                                </div>
+                                            </div>
+											<div class="clear"> </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="submit" value="Send Message" class="btn btn-primary">
+                                                    <div class="submitting"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+										<div class="loader">
+											<div class="loading">
+											</div>
+										</div>
+                                    </form>
+                                    <div class="w-100 social-media mt-5">
+                                        <h3>Follow us here</h3>
+                                        <p>
+                                            <a href="https://www.twitter.com/zfhassaan">Twitter</a>
+											<a href="https://www.github.com/zfhassaan">Github</a>
+                                        </p>
+                                    </div>
+									<div class="w-100 social-media mt-5">
+										<small><img src="./assets/logo/Hassaan Logo.png" width="20px" style="margin-right: 3px; border-radius: 50%;">zfhassaan</small>
 									</div>
-								</div>
-								<div class="clear"> </div>
-							</span>
-						</div>
 
-						<div class="w3_main_grid">
-							<div class="w3_main_grid_right" style="text-align: center;">
-								<input type="submit" value="Submit">
-							</div>
-						</div>
-					</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex align-items-stretch">
+                                <div class="info-wrap w-100 p-5 img"
+                                    style="background-image:url('./assets/contact-image.webp')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<!-- Customise the Thankyou Message People See when they submit the form: -->
-					<div class="thankyou_message" style="display:none;">
-						<h2><em>Thanks</em> for contacting us!
-							We will get back to you soon!</h2>
-					</div>
-
-				</form>
-				<div class="w3layouts_copy_right">
-					<div class="container">
-						<p>© 2018 Created by <a href="https://www.helperbox.cf">Helper Box</a></p>
-					</div>
-				</div>
-
-				<script
-					src="https://p.w3layouts.com/demos_new/template_demo/29-06-2017/event_registration_form-demo_Free/744047052/web/js/jquery-ui.js"></script>
-				<script>$(function () { $("#datepicker").datepicker(); }); </script>
-				<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
-			</div>
-			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script	src="https://p.w3layouts.com/demos_new/template_demo/29-06-2017/event_registration_form-demo_Free/744047052/web/js/jquery-ui.js"></script>
+	<script data-cfasync="false" type="text/javascript" src="./assets/js/form-submission-handler.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>
