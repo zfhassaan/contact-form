@@ -303,11 +303,11 @@ your form because it automatically re-loads the page when you make changes in yo
 
 # *Want more*?
 
-If you want us to take this tutorial further, [***please let us know***!](https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server/issues)
+If you want us to take this tutorial further, [***please let us know***!](https://github.com/zfhassaan/contact-form/issues)
 
 For your convenience, we have hosted a working demo of the field on GitHub
 Pages, check it out to see the code and how it works:
-https://dwyl.github.io/learn-to-send-email-via-google-script-html-no-server/
+https://zfhassaan.github.io/contact-form/
 
 ## Uploading Files
 
@@ -318,7 +318,7 @@ https://dwyl.github.io/learn-to-send-email-via-google-script-html-no-server/
 
 1. _How can I get help using this tutorial?_
 
-- Feel free to [post an issue](https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server/issues/new) describing in detail which steps you have gone through and what isn't working. To get a helpful response, please provide a [working example](https://stackoverflow.com/help/mcve) that reproduces your issue. For example, see [this sample CodePen](https://codepen.io/mckennapsean/pen/gdYzNY).
+- Feel free to [post an issue](https://github.com/zfhassaan/contact-form/issues/new) describing in detail which steps you have gone through and what isn't working. To get a helpful response, please provide a [working example](https://stackoverflow.com/help/mcve) that reproduces your issue. For example, see [this sample CodePen](https://codepen.io/mckennapsean/pen/gdYzNY).
 
 2. _Can I get edit access to the example spreadsheet?_
 
