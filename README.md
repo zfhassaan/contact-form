@@ -358,3 +358,6 @@ https://developers.google.com/apps-script/reference/base/logger
 https://developers.google.com/apps-script/articles/mail_merge
 + Original Tutorial: AJAX post to google spreadsheet: https://stackoverflow.com/questions/10000020/ajax-post-to-google-spreadsheet which points to:
   + https://mashe.hawksey.info/2011/10/google-spreadsheets-as-a-database-insert-with-apps-script-form-postget-submit-method/
+
+### Credits:
+The project is forked from [dwyl](https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server)
